@@ -5,8 +5,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 You can see it live [here](#).
 
 ## Table of Contents:
--[Languages used](#languages-used)
--[How to approach this project?](#how-to-approach-this-project)
+- [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)
+  - [Table of Contents:](#table-of-contents)
+  - [Languages used:](#languages-used)
+  - [How to approach this project:](#how-to-approach-this-project)
 
 ## Languages used:
 - HTML
