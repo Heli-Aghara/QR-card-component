@@ -2,7 +2,7 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-You can see it live [here](#).
+You can see it live [here](https://qr-card-component-1.netlify.app/).
 
 ## Table of Contents:
 - [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)

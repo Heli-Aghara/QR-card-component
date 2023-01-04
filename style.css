@@ -1,74 +1,71 @@
 /* |CSS Reset| */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+:root {
+  /* |Colors|  */
 
-:root{
-    /* |Colors|  */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
 
-    --clr-white:hsl(0, 0%, 100%);
-    --clr-dark-blue:hsl(218, 44%, 22%);
-    --clr-light-gray:hsl(212, 45%, 89%);
-    --clr-grayish-blue:hsl(220, 15%, 55%);
-
-    /* |font-weights| */
-    --fw-regular:400;
-    --fw-bold:700;
+  /* |font-weights| */
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 /* general styling*/
-body{
-    font-size: 0.938rem ;
-    font-weight: var(--fw-regular);
-    font-family: 'Outfit',sans-serif;
-    color: var(--clr-grayish-blue);
-    background: var(--clr-light-gray);
+body {
+  font-size: 0.938rem;
+  font-weight: var(--fw-regular);
+  font-family: "Outfit", sans-serif;
+  color: var(--clr-grayish-blue);
+  background: var(--clr-light-gray);
 }
 
 /* Centering QR card*/
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-height: 100vh;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
 }
 
-.qr-card{
-    border: 1px solid navy;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width:300px;
-    min-width:240px;
-    gap:1rem;
-    background:var(--clr-white) ;
-    border-radius: 1rem;
-    padding:.8rem .8rem 2rem;
-    margin:1rem 0px; 
-    box-shadow: 0 0 2px 0px var(--clr-white);
+.qr-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 240px;
+  gap: 1rem;
+  background: var(--clr-white);
+  border-radius: 1rem;
+  padding: 0.8rem 0.8rem 2rem;
+  margin: 1rem 0px;
+  box-shadow: 0 0 2px 0px var(--clr-white);
 }
 
-
-.qr-card__image img{
-    border-radius: .5rem;
-    width: 100%;
+.qr-card__image img {
+  border-radius: 0.5rem;
+  width: 100%;
 }
 
-.qr-card__text{
-    display:flex ;
-    flex-direction: column;
-    gap: .8rem;
-    text-align: center;
-    padding:0rem .8rem;
+.qr-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-align: center;
+  padding: 0rem 0.8rem;
 }
 
-.qr-card__text h1{
-    color: var(--clr-dark-blue);
-    font-size: 1.20rem;
-    font-weight: var(--fw-bold);
+.qr-card__text h1 {
+  color: var(--clr-dark-blue);
+  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
 }
